@@ -1,0 +1,99 @@
+html
+  <header class="head1"> 
+    <!-- <h3 class="hhhh1">MEDIUM</h3> -->
+    <a class="log" href="login.html"> <button type="button" class="button">
+      <span class="button__text">log in</span>
+    </button></a>
+      <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>   
+  <a class="aaa1" href="#">signin</a>
+  <a class="aaa2" href="#">about</a>
+  <a class="aaa3" href="#">write</a>
+   </header>
+  <hr class="hrr1">
+<header class="head2">
+  <h2 class="hh2">Stay Curious</h2>
+      <h4 class="hh4">the mind that opens to a new idea never returns to its original size.</h4>
+</header> 
+css
+header {
+    text-align: center;
+    background-color:#FFA500 ;
+    color:black;
+    padding: 70px;
+  }
+  header h1 {
+    font-size: 48px;
+    margin-bottom: 30px;
+  }
+  header p {
+    font-size: 22px;
+  }
+  .log{
+    text-decoration: none;
+    position: relative;
+    left: 750px;
+    bottom: 72px;
+      }
+      .hh1{
+        font-family: Impact ,sans-serif;
+      }
+      .hrr1{
+        border-style: inset none none;
+        height:1px;
+        border-color: black;
+        color: black;
+      }
+      .hhhh1{
+        position: relative;
+        top: 20px;
+        right: 550px;
+      }
+      .head1 {
+        /* display: flex; */
+        position: sticky;
+        top: 0;
+        padding: 0px;
+        /* min-height: 10px; */
+      }
+      .head2{
+        position: relative;
+    
+      }
+      .aaa1 {
+        color: black;
+        position: relative;
+        left:400px;
+        bottom: 70px;
+        font-size: 25px;
+        text-decoration: none;
+      }
+      
+      .hh2 {
+        font-family: 'Noto Sans Mono', monospace;
+        font-size: 70px;
+        position: relative;
+        right:500px;
+        bottom: 55px;
+      }
+      .aaa2{
+        color: black;
+        position: relative;
+        left:432px;
+        bottom: 70px;
+        font-size: 25px;
+        text-decoration: none;}
+        .aaa3 {
+          color: black;
+          position: relative;
+          left:460px;
+          bottom: 70px;
+          font-size: 25px;
+            text-decoration: none;}
+      .hh4 {
+        font-family: 'Kalam';
+        font-family: 'Noto Sans Mono', monospace;
+        font-size: 30px;
+        position: relative;
+        right: 90px;
+        bottom: 30px;
+      }
